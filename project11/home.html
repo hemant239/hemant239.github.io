@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>home</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="CSS.css">
+        <script src = "script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>FAVOURITE SPORTS</h1>
+            <nav>
+                <a href="home.html" class="active">Home</a>
+                <a href="cricket.html">Cricket</a>
+                <a href="football.html">Football</a>
+                <a href="tennis.html">Tennis</a>
+                <a href="basketball.html">Basketball</a>
+            </nav>
+        </header>
+        <section class="left">
+            <h4>images</h4>
+            <div class="row1">
+                <div class="column1">
+                  <img src="images/sports/sports1.jpg" onclick="openModal(0);currentSlide(1,0)" class="hover-shadow" alt="sports image">
+                </div>
+                <div class="column1">
+                  <img src="images/sports/sports2.jpg" onclick="openModal(0);currentSlide(2,0)" class="hover-shadow" alt="sports image">
+                </div>
+                <div class="column1">
+                  <img src="images/sports/sports3.jpg" onclick="openModal(0);currentSlide(3,0)" class="hover-shadow" alt="sports image">
+                </div>
+                <div class="column1">
+                  <img src="images/sports/sports4.jpg" onclick="openModal(0);currentSlide(4,0)" class="hover-shadow" alt="sports image">
+                </div>
+              </div>
+            <div id="myModal1" class="modal1">
+                <span class="close cursor" onclick="closeModal(0)">&times;</span>
+                <div class="light1">
+                    <div class="slides1"><img src="images/sports/sports1.jpg" alt="sports image"></div>
+                    <div class="slides1"><img src="images/sports/sports2.jpg" alt="sports image"></div>
+                    <div class="slides1"><img src="images/sports/sports3.jpg" alt="sports image"></div>
+                    <div class="slides1"><img src="images/sports/sports4.jpg" alt="sports image"></div>
+                    <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+                </div>
+            </div>    
+        </section>
+        <section class="center">
+            <h2>Sports</h2>
+            <details>
+                <summary><h3>About Sports</h3></summary>
+                <div>
+                    <p>A sport is commonly defined as an athletic activity that involves a degree of competition,
+                        such as netball or basketball. Some games and many kinds of racing are called sports. 
+                        A professional at a sport is called an athlete. Many people play sports with their friends.
+                        They need coaches to teach or train teams or individuals how to do better.</p>
+                     <p>Sports can be played indoors
+                        or outdoors and by individuals or teams.For children, sports play an extremely important part 
+                        in their lives by providing all round development of the child, physically, mentally and emotionally. 
+                        It also helps them to be fit and keep them healthy.</p> 
+                    <p>People like to watch other people play sports. 
+                        Those who watch others playing sports are called fans. While some fans watch sports on television, others 
+                        actually go to stadiums or other places where people pay to watch them in person. These fans are called spectators.</p>
+                </div>
+            </details>
+            <details>
+                <summary><h3>Most Popular Sports</h3></summary>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Sport</th>
+                            <th>Estimated Fans</th>
+                            <th>Regions</th>
+                        </tr>
+                    </thead>
+                    
+                    <tr>
+                        <td>1.</td>
+                        <td>Soccer</td>
+                        <td>3.5 Billion</td>
+                        <td>Europe, Africa, Asia, America</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Cricket</td>
+                        <td>2.5 Billion</td>
+                        <td>Asia, Australia, UK</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Basketball</td>
+                        <td>2.2 Billion</td>
+                        <td>US, Canada, China, and the Philippines</td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td>Field Hockey</td>
+                        <td>2 Billion</td>
+                        <td>Europe, Africa, Asia, Australia</td>
+                    </tr>
+                    <tr>
+                        <td>5.</td>
+                        <td>Tennis</td>
+                        <td>1 Billion</td>
+                        <td>Europe, Americas, and Asia</td>
+                    </tr>
+                    <tr>
+                        <td>6.</td>
+                        <td>Volleyball</td>
+                        <td>900 Million</td>
+                        <td>Asia, Europe, Americas, and Australia</td>
+                    </tr>
+                    <tr>
+                        <td>7.</td>
+                        <td>Table Tennis</td>
+                        <td>850 Million</td>
+                        <td>Asia, Europe, Africa and America</td>
+                    </tr>
+                    <tr>
+                        <td>8.</td>
+                        <td>Baseball</td>
+                        <td>500 Million</td>
+                        <td>US, Japan, Cuba, and the Dominican Republic</td>
+                    </tr>
+                    <tr>
+                        <td>9.</td>
+                        <td>Americal Football Rugby</td>
+                        <td>410 Million </td>
+                        <td>USA,France, England, New Zealand, South Africa</td>
+                    </tr>
+                    <tr>
+                        <td>10.</td>
+                        <td>Golf</td>
+                        <td>390 Million</td>
+                        <td>Europe, Asia, America, Canada
+                        </td>
+                    </tr>
+                </table>
+            </details>
+            
+        </section>
+        <section class="right">
+            <h4>images</h4>
+            <div class="row2">
+                <div class="column2">
+                  <img src="images/sports/sports5.jpg" onclick="openModal(1);currentSlide(1,1)" class="hover-shadow" alt="sports image">
+                </div>
+                <div class="column2">
+                  <img src="images/sports/sports6.jpg" onclick="openModal(1);currentSlide(2,1)" class="hover-shadow" alt="sports image">
+                </div>
+                <div class="column2">
+                  <img src="images/sports/sports7.jpg" onclick="openModal(1);currentSlide(3,1)" class="hover-shadow" alt="sports image">
+                </div>
+                <div class="column2">
+                  <img src="images/sports/sports8.jpg" onclick="openModal(1);currentSlide(4,1)" class="hover-shadow" alt="sports image">
+                </div>
+              </div>
+            <div id="myModal2" class="modal2">
+                <span class="close cursor" onclick="closeModal(1)">&times;</span>
+                <div class="light2">
+                    <div class="slides2"><img src="images/sports/sports5.jpg" alt="sports image"></div>
+                    <div class="slides2"><img src="images/sports/sports6.jpg" alt="sports image"></div>
+                    <div class="slides2"><img src="images/sports/sports7.jpg" alt="sports image"></div>
+                    <div class="slides2"><img src="images/sports/sports8.jpg" alt="sports image"></div>
+                    <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                </div>
+            </div>    
+        </section>
+
+    </body>
+</html>

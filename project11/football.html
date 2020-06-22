@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>football</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="CSS.css">
+        <script src = "script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>FAVOURITE SPORTS</h1>
+            <nav>
+                <a href="home.html" >Home</a>
+                <a href="cricket.html">Cricket</a>
+                <a href="football.html" class="active">Football</a>
+                <a href="tennis.html">Tennis</a>
+                <a href="basketball.html">Basketball</a>
+            </nav>
+        </header>
+        <section class="left">
+            <h4>images</h4>
+            <div class="row1">
+                <div class="column1">
+                    <img src="images/football/football1.jpg" onclick="openModal(0);currentSlide(1,0)" class="hover-shadow" alt="football image">
+                  </div>
+                  <div class="column1">
+                    <img src="images/football/football2.jpg" onclick="openModal(0);currentSlide(2,0)" class="hover-shadow" alt="football image">
+                  </div>
+                  <div class="column1">
+                    <img src="images/football/football3.jpg" onclick="openModal(0);currentSlide(3,0)" class="hover-shadow" alt="football image">
+                  </div>
+                  <div class="column1">
+                    <img src="images/football/football4.jpg" onclick="openModal(0);currentSlide(4,0)" class="hover-shadow" alt="football image">
+                  </div>
+                </div>
+              <div id="myModal1" class="modal1">
+                  <span class="close cursor" onclick="closeModal(0)">&times;</span>
+                <div class="light1">
+                    <div class="slides1"><img src="images/football/football1.jpg" alt="football image"></div>
+                    <div class="slides1"><img src="images/football/football2.jpg" alt="football image"></div>
+                    <div class="slides1"><img src="images/football/football3.jpg" alt="football image"></div>
+                    <div class="slides1"><img src="images/football/football4.jpg" alt="football image"></div>
+                    <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+                </div>
+            </div>    
+        </section>
+        <section class="center">
+            <h2>Football</h2>
+            <details>
+                <summary><h3>About Football</h3></summary>
+                <div>
+                    <p>
+                        Football is a family of team sports that involve, to varying degrees, 
+                        kicking a ball to score a goal. Unqualified, the word football normally means 
+                        the form of football that is the most popular where the word is used.
+                    </p>
+                        <p>The Rules include:</p>
+                        <ul>
+                            <li>Two teams of usually between 11 and 18 players.</li>
+                            <li> A clearly defined area in which to play the game.</li>
+                            <li>Scoring goals or points by moving the ball to an opposing team's end of the field and either into a goal area, or over a line.</li>
+                            <li>Goals or points resulting from players putting the ball between two goalposts.</li>
+                            <li>The goal or line being defended by the opposing team.</li>
+                            <li>Players using only their body to move the ball.</li>
+                        </ul>
+                    <p>
+                        Regardless of whether you call it football or soccer,
+                        it’s a sport with massive global appeal and fan interest. 
+                        In fact, more than 40% of people 16 or older in major population 
+                        centers around the world consider themselves interested or very interested in 
+                        following football, more so than any other sport.
+                    </p>
+                    <p>
+                        Around the world, football is a sport that transcends gender.
+                        Nielsen SportsDNA global research shows football is the most popular 
+                        sport among women globally and a recent study shows 70% of women find the men’s 
+                        FIFA World Cup “very appealing” and 58% of women find the women’s FIFA World Cup “very appealing.”
+                    </p>
+                </div>
+            </details>
+            
+            <details>
+                <summary><h3>Most Famous Players on Social Media</h3></summary>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Player</th>
+                            <th>Fans</th>
+                        </tr>
+                    </thead>
+                    
+                    <tr>
+                        <td>1.</td>
+                        <td>Cristiano Ronaldo</td>
+                        <td>83.5 Million</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Lionel Messi</td>
+                        <td>57.5 Million</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>David Beckham</td>
+                        <td>40 Million</td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td>Kaka</td>
+                        <td>28.4 Million</td>
+                    </tr>
+                    <tr>
+                        <td>5.</td>
+                        <td>Neymar Jr.</td>
+                        <td>22.8 Million</td>
+                    </tr>
+                    <tr>
+                        <td>6.</td>
+                        <td>Wayne Rooney</td>
+                        <td>20 Million</td>
+                    </tr>
+                    <tr>
+                        <td>7.</td>
+                        <td>Andrés Iniesta</td>
+                        <td>19.8 Million</td>
+                    </tr>
+                    <tr>
+                        <td>8.</td>
+                        <td>Mesut Özil</td>
+                        <td>19 Million</td>
+                    </tr>
+                    <tr>
+                        <td>9.</td>
+                        <td>Iker Casillas</td>
+                        <td>18.8 Million </td>
+                    </tr>
+                    <tr>
+                        <td>10.</td>
+                        <td>Ronaldinho</td>
+                        <td>18.7 Million</td>
+                    </tr>
+                </table>
+            </details>
+            
+        </section>
+        <section class="right">
+            <h4>images</h4>
+            <div class="row2">
+                <div class="column2">
+                    <img src="images/football/football5.jpg" onclick="openModal(1);currentSlide(1,1)" class="hover-shadow" alt="football image">
+                  </div>
+                  <div class="column2">
+                    <img src="images/football/football6.jpg" onclick="openModal(1);currentSlide(2,1)" class="hover-shadow" alt="football image">
+                  </div>
+                  <div class="column2">
+                    <img src="images/football/football7.jpg" onclick="openModal(1);currentSlide(3,1)" class="hover-shadow" alt="football image">
+                  </div>
+                  <div class="column2">
+                    <img src="images/football/football8.jpg" onclick="openModal(1);currentSlide(4,1)" class="hover-shadow" alt="football image">
+                  </div>
+                </div>
+              <div id="myModal2" class="modal2">
+                  <span class="close cursor" onclick="closeModal(1)">&times;</span>
+                <div class="light2">
+                    <div class="slides2"><img src="images/football/football5.jpg" alt="football image"></div>
+                    <div class="slides2"><img src="images/football/football6.jpg" alt="football image"></div>
+                    <div class="slides2"><img src="images/football/football7.jpg" alt="football image"></div>
+                    <div class="slides2"><img src="images/football/football8.jpg" alt="football image"></div>
+                    <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                </div>
+            </div>    
+        </section>
+
+    </body>
+</html>

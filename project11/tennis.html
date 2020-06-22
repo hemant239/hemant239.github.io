@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>tennis</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="CSS.css">
+        <script src = "script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>FAVOURITE SPORTS</h1>
+            <nav>
+                <a href="home.html" >Home</a>
+                <a href="cricket.html" >Cricket</a>
+                <a href="football.html">Football</a>
+                <a href="tennis.html" class="active">Tennis</a>
+                <a href="basketball.html">Basketball</a>
+            </nav>
+        </header>
+        <section class="left">
+            <h4>images</h4>
+            <div class="row1">
+            <div class="column1">
+                <img src="images/tennis/tennis1.jpg" onclick="openModal(0);currentSlide(1,0)" class="hover-shadow" alt="tennis image">
+              </div>
+              <div class="column1">
+                <img src="images/tennis/tennis2.jpg" onclick="openModal(0);currentSlide(2,0)" class="hover-shadow" alt="tennis image">
+              </div>
+              <div class="column1">
+                <img src="images/tennis/tennis3.jpg" onclick="openModal(0);currentSlide(3,0)" class="hover-shadow" alt="tennis image">
+              </div>
+              <div class="column1">
+                <img src="images/tennis/tennis4.jpg" onclick="openModal(0);currentSlide(4,0)" class="hover-shadow" alt="tennis image">
+              </div>
+            </div>
+          <div id="myModal1" class="modal1">
+              <span class="close cursor" onclick="closeModal(0)">&times;</span>
+                <div class="light1">
+                    <div class="slides1"><img src="images/tennis/tennis1.jpg" alt="tennis image"></div>
+                    <div class="slides1"><img src="images/tennis/tennis2.jpg" alt="tennis image"></div>
+                    <div class="slides1"><img src="images/tennis/tennis3.jpg" alt="tennis image"></div>
+                    <div class="slides1"><img src="images/tennis/tennis4.jpg" alt="tennis image"></div>
+                    <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+                </div>
+            </div>    
+        </section>
+        <section class="center">
+            <h2>Tennis</h2>
+            <details>
+                <summary><h3>About Tennis</h3></summary>
+                <div>
+                    <p>
+                        Tennis is a racket sport that can be played individually against a single opponent (singles) or 
+                        between two teams of two players each (doubles). Each player uses a tennis racket that is strung with 
+                        cord to strike a hollow rubber ball covered with felt over or around a net and into the opponent's court. 
+                        The object of the game is to maneuver the ball in such a way that the opponent is not able to play a valid return. 
+                        The player who is unable to return the ball will not gain a point, while the opposite player will.
+                    </p>
+                    <p>
+                        Tennis is played by millions of recreational players and is also a popular worldwide 
+                        spectator sport. The four Grand Slam tournaments (also referred to as the Majors) are especially popular: 
+                        the Australian Open played on hard courts, the French Open played on red clay courts, Wimbledon played on grass courts, 
+                        and the US Open also played on hard courts.
+                    </p>
+                </div>
+            </details>
+            
+            <details>
+                <summary><h3>Most Famous Players on Social Media</h3></summary>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Player</th>
+                            <th>Fans</th>
+                        </tr>
+                    </thead>
+                    
+                    
+                    <tr>
+                        <td>1.</td>
+                        <td>Rafael Nadal</td>
+                        <td>39 Million</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Roger Federer</td>
+                        <td>36 Million</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Sania Mirza </td>
+                        <td>29.6 Million</td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td>Serena Williams</td>
+                        <td>29 Million</td>
+                    </tr>
+                    <tr>
+                        <td>5.</td>
+                        <td>Maria Sharapova</td>
+                        <td>27 Million</td>
+                    </tr>
+                    <tr>
+                        <td>6.</td>
+                        <td>Novak Djokovic</td>
+                        <td>23 Million</td>
+                    </tr>
+                    <tr>
+                        <td>7.</td>
+                        <td>Andy Murray</td>
+                        <td>8 Million</td>
+                    </tr><tr>
+                        <td>8.</td>
+                        <td>Ana Ivanović</td>
+                        <td>7 Million</td>
+                    </tr><tr>
+                        <td>9.</td>
+                        <td>Juan Martín del Potro</td>
+                        <td>6.8 Million</td>
+                    </tr><tr>
+                        <td>10.</td>
+                        <td>Caroline Wozniacki</td>
+                        <td>5 Million</td>
+                    </tr>
+                </table>
+            </details>
+            
+        </section>
+        <section class="right">
+            <h4>images</h4>
+            <div class="row2">
+                <div class="column2">
+                    <img src="images/tennis/tennis5.jpg" onclick="openModal(1);currentSlide(1,1)" class="hover-shadow" alt="tennis image">
+                  </div>
+                  <div class="column2">
+                    <img src="images/tennis/tennis6.jpg" onclick="openModal(1);currentSlide(2,1)" class="hover-shadow" alt="tennis image">
+                  </div>
+                  <div class="column2">
+                    <img src="images/tennis/tennis7.jpg" onclick="openModal(1);currentSlide(3,1)" class="hover-shadow" alt="tennis image">
+                  </div>
+                  <div class="column2">
+                    <img src="images/tennis/tennis8.jpg" onclick="openModal(1);currentSlide(4,1)" class="hover-shadow" alt="tennis image">
+                  </div>
+                </div>
+              <div id="myModal2" class="modal2">
+                  <span class="close cursor" onclick="closeModal(1)">&times;</span>
+                <div class="light2">
+                    <div class="slides2"><img src="images/tennis/tennis5.jpg" alt="tennis image"></div>
+                    <div class="slides2"><img src="images/tennis/tennis6.jpg" alt="tennis image"></div>
+                    <div class="slides2"><img src="images/tennis/tennis7.jpg" alt="tennis image"></div>
+                    <div class="slides2"><img src="images/tennis/tennis8.jpg" alt="tennis image"></div>
+                    <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                </div>
+            </div>    
+        </section>
+
+    </body>
+</html>
